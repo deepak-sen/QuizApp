@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    Question 1-->
+        <TextView
+            style="@style/questionStyle"
+            android:text="1. Who was the first President of USA ?"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/newton_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issac Newton"/>
+
+            <RadioButton
+                android:id="@+id/curie_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marie Curie"/>
+            <RadioButton
+                android:id="@+id/dhurmus_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dhurmus"/>
+            <RadioButton
+                android:id="@+id/george_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Washington"/>
+
+
+        </RadioGroup>
+
+        <!--    Question 2-->
+        <TextView
+            style="@style/questionStyle"
+            android:text="2. How many countries in the world ?"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/twoseven_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27"/>
+
+            <RadioButton
+                android:id="@+id/fourfour_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="44"/>
+            <RadioButton
+                android:id="@+id/oneninefive_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="195"/>
+            <RadioButton
+                android:id="@+id/twotwo_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22"/>
+
+
+        </RadioGroup>
+
+        <!--    Question 3-->
+        <TextView
+            style="@style/questionStyle"
+            android:text="3. Where is the leaning tower of Pisa ?"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/france_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"/>
+
+            <RadioButton
+                android:id="@+id/nepal_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nepal"/>
+            <RadioButton
+                android:id="@+id/west_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="West Korea"/>
+            <RadioButton
+                android:id="@+id/italy_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"/>
+
+
+        </RadioGroup>
+
+        <!--    Question 4-->
+        <TextView
+            style="@style/questionStyle"
+            android:text="4. Who was the first to land on the moon?"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/trump_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donald Trump"/>
+
+            <RadioButton
+                android:id="@+id/chaplin_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Charlie Chaplin"/>
+            <RadioButton
+                android:id="@+id/yuri_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yuri Gagarin"/>
+            <RadioButton
+                android:id="@+id/niel_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Niel Armstrong"/>
+
+
+        </RadioGroup>
+
+        <!--    Question 5-->
+        <TextView
+            style="@style/questionStyle"
+            android:text="5. Who was the second to land on the moon?"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/oli_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KP Oli"/>
+
+            <RadioButton
+                android:id="@+id/dahal_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puspa Kamal Dahal"/>
+            <RadioButton
+                android:id="@+id/buzz_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buzz Aldrin"/>
+            <RadioButton
+                android:id="@+id/sher_radiobutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sher Bahadur Deba"/>
+
+
+        </RadioGroup>
+        <!--    Question 6-->
+        <TextView
+            style="@style/questionStyle"
+            android:text="6. Who was the first to climb Mt.Everest?"/>
+
+
+
+            <CheckBox
+                android:id="@+id/dwayne_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dwayne Johnson"/>
+
+            <CheckBox
+                android:id="@+id/sherpa_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tenging Norge Sherpa"/>
+            <CheckBox
+                android:id="@+id/hillary_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edmaund Hillary"/>
+            <CheckBox
+                android:id="@+id/pramit_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pramit Marattha"/>
+
+
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/color_button"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="your_score">Your final score is:</string>
+    <string name="button_back">Click to start again</string>
+</resources>
